@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\kreas\source\repos\RecipeApp_WPF\App.xaml
-11407045341
+7-1338124186
 
-615549513
+12-1133855401
 1942137971047
-MainWindow.xaml;
+AddRecipeWindow.xaml;ClearRecipeWindow.xaml;ExitAppWindow.xaml;MainWindow.xaml;RevertRecipeWindow.xaml;ScaleRecipeWindow.xaml;ViewRecipesWindow.xaml;
 
-True
+False
 

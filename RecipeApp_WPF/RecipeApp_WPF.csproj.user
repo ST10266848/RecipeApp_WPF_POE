@@ -7,7 +7,45 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClearRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExitAppWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RevertRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ScaleRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewRecipesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClearRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExitAppWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RevertRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ScaleRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewRecipesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

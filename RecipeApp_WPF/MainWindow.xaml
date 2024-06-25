@@ -5,8 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecipeApp_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="757" Width="1320"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-       
+
+        <Grid.Background>
+            <ImageBrush        ImageSource="\sunnyKitchen.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Label x:Name="RecipeAppHeading" Content="Recipe Repo" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="40" RenderTransformOrigin="0.513,0.305" Foreground="#FF57C32F" OpacityMask="Black">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="WelcomeMsg" Content="Welcome to your personal Recipe Repo!" HorizontalAlignment="Center" Margin="0,87,0,0" VerticalAlignment="Top" Foreground="#FF57C32F" FontFamily="Forte" FontSize="30" Height="46" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="WelcomeInstruction" Content="Select an option from below to get started!" HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="26" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button x:Name="AddRecipeBtn" Style="{DynamicResource RoundButton}" Content="➕  Add Recipe" HorizontalAlignment="Center" Margin="0,204,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="183" FontSize="20" Click="AddRecipeBtn_Click"/>
+        <Button x:Name="ViewRecipesBtn" Style="{DynamicResource RoundButton}" Content="🍰 View Recipes" HorizontalAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="184" FontSize="20" Click="ViewRecipesBtn_Click"/>
+        <Button x:Name="ScaleRecipeBtn" Style="{DynamicResource RoundButton}" Content="🤏 Scale Recipe" HorizontalAlignment="Center" Margin="0,371,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="183" FontSize="20" Click="ScaleRecipeBtn_Click"/>
+        <Button x:Name="RevertRecipeBtn" Style="{DynamicResource RoundButton}" Content="↩️  Revert Recipe" HorizontalAlignment="Center" Margin="0,456,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="183" FontSize="20" Click="RevertRecipeBtn_Click"/>
+        <Button x:Name="ClearRecipeBtn" Style="{DynamicResource RoundButton}" Content="🗑  Clear Recipe" HorizontalAlignment="Center" Margin="0,542,0,0" VerticalAlignment="Top" Background="#FFAE1818" Foreground="White" BorderBrush="Black" Height="48" Width="183" FontSize="20" Click="ClearRecipeBtn_Click"/>
+        <Button x:Name="ExitAppBtn" Style="{DynamicResource RoundButton}" Content="🏠  Exit" HorizontalContentAlignment="Center" Margin="0,631,0,0" VerticalAlignment="Top" Background="#FFAE1818" Foreground="White" BorderBrush="Black" Height="48" Width="183" FontSize="20" Click="ExitAppBtn_Click"/>
+        
+
+
     </Grid>
 </Window>
