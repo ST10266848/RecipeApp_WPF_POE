@@ -79,7 +79,7 @@
             </Label.Effect>
         </Label>
 
-        <Label x:Name="StepDescriptionLabel" Content="Description of step 1:" HorizontalAlignment="Left" Margin="97,403,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="22">
+        <Label x:Name="StepDescriptionLabel" Content="Description of step:" HorizontalAlignment="Left" Margin="97,403,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="22">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
