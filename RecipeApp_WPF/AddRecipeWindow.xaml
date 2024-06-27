@@ -5,9 +5,188 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecipeApp_WPF"
         mc:Ignorable="d"
-        Title="AddRecipeWindow" Height="757" Width="1320"
+        Title="AddRecipeWindow" Height="800" Width="1320"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+
+        <Grid.Background>
+            <ImageBrush        ImageSource="\sunnyKitchen.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Label x:Name="RecipeAppLabel" Content="Recipe Repo" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="30" RenderTransformOrigin="0.513,0.305" Foreground="#FF57C32F" OpacityMask="Black">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="AddRecipeInstructionLabel" Content="You can enter all your recipe details right here!" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="30" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="RecipeNameLabel" Content="Recipe Name:" HorizontalAlignment="Left" Margin="103,138,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="RecipeLabel" Content="1.  Recipe" HorizontalAlignment="Left" Margin="97,82,0,0" VerticalAlignment="Top" FontFamily="Bauhaus 93" Foreground="#FF57C32F" FontSize="30">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="IngredientsLabel" Content="2.  Add Ingredients" HorizontalAlignment="Left" Margin="754,82,0,0" VerticalAlignment="Top" FontFamily="Bauhaus 93" Foreground="#FF1E5DD4" FontSize="30">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="NumberOfIngredientsLabel" Content="Number of ingredients:" HorizontalAlignment="Left" Margin="97,265,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="IngredientNameLabel" Content="Ingredient Name:" HorizontalAlignment="Left" Margin="754,138,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="IngredientQuantityLabel" Content="Quantity:" HorizontalAlignment="Left" Margin="755,197,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20" RenderTransformOrigin="0.557,0.433">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="MeasurementUnitLabel" Content="Measurement unit:" HorizontalAlignment="Left" Margin="755,258,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="CalorieCountLabel" Content="Number of calories:" HorizontalAlignment="Left" Margin="755,317,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20" >
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="FoodGroupLabel" Content="Select the food group of the ingredient:" HorizontalAlignment="Left" Margin="757,369,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="StepsLabel" Content="3.  Add Steps" HorizontalAlignment="Left" Margin="97,338,0,0" VerticalAlignment="Top" FontFamily="Bauhaus 93" Foreground="#FFFC9911" FontSize="30">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="NumberOfStepsLabel" Content="Number of steps:" HorizontalAlignment="Left" Margin="97,198,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="20">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="StepDescriptionLabel" Content="Description of step 1:" HorizontalAlignment="Left" Margin="97,403,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Small bold" Foreground="White" FontSize="22">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <!--Textboxes for allowing the user to enter necessary recipe details-->
+        <TextBox x:Name="RecipeNameTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="340,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="numberOfIngredientsTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="1009,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="IngredientNameTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="341,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="QuantityTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="1009,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="MeasurementUnitTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="1009,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="CalorieCountTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="1009,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28" FontSize="16"/>
+
+        <TextBox x:Name="NumberOfStepsTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="341,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Height="28" FontSize="16"/>
+
+        <!--Code Attribution:
+          Author: moogs
+          Source: moogs's post on this reddit thread at this URL:
+          https://stackoverflow.com/questions/325075/how-do-i-change-richtextbox-paragraph-spacing-->
+
+        <!--The below code ensures that the space between each entered line is set to zero such there is no space
+        between each entered line or paragraph:-->
+        <RichTextBox x:Name="StepDescriptionTxtBox" Style="{DynamicResource RoundRichTextbox}" HorizontalAlignment="Left" Margin="341,415,0,0" VerticalAlignment="Top" Width="259" Height="135" FontSize="16">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0"/>
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+
+        <!--Radio buttons eliminate the need for a switch case structure that was used in the console version of the app
+        With radio buttons, we can also prevent the user from selecting an invalid choice since they will only be
+        able to select valid options-->
+
+        <!--Each of the below RadioButtons represent a food group option-->
+        <RadioButton x:Name="StarchyFoodRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Starchy Foods" HorizontalAlignment="Left" Margin="757,416,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="True" Foreground="White" Checked="StarchyFoodRadioBtn_Checked">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="VegAndFruitRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Vegetables and Fruits" HorizontalAlignment="Left" Margin="780,459,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White" RenderTransformOrigin="0.564,-1.027">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="2.9" Y="-8.072"/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <!--This radiobutton represents the "Dry beans, peas, lentils and soya" food group-->
+        <RadioButton x:Name="DryRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Dry beans, peas, lentils and soya" HorizontalAlignment="Left" Margin="1005,416,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="ProteinRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Chicken, fish, meat and eggs" HorizontalAlignment="Left" Margin="1005,456,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="DairyRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Milk and dairy products" HorizontalAlignment="Left" Margin="757,495,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="FatsAndOilsRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Fats and Oil" HorizontalAlignment="Left" Margin="1005,495,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="WaterRadioBtn" Style="{StaticResource resizeRadioButton}" Content="Water" HorizontalAlignment="Left" Margin="757,532,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="False" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <Button x:Name="SaveIngredientBtn" Style="{DynamicResource RoundButton}" Content="💾  Save Ingredient" HorizontalAlignment="Left" Margin="864,598,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="42" Width="197" FontSize="20" Click="SaveIngredientBtn_Click"/>
+        <Button x:Name="AddRecipeBtn" Style="{DynamicResource RoundButton}" Content="➕  Add Recipe" HorizontalAlignment="Center" Margin="0,699,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="246" FontSize="20"/>
+        <Button x:Name="SaveStepBtn" Style="{DynamicResource RoundButton}" Content="💾  Save Step" HorizontalAlignment="Left" Margin="261,598,0,0" VerticalAlignment="Top" Background="#FFC87B12" Foreground="White" BorderBrush="Black" Height="42" Width="198" FontSize="20" RenderTransformOrigin="0.16,0.527"/>
+        <!--Added rectangles to serve as dividers between areas of input on the AddRecipe Window-->
+
     </Grid>
 </Window>

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\stepdescriptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:stepdescriptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\exitappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:exitappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\totalcalories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:totalcalories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\clearrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:clearrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\recipeingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:recipeingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\revertrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:revertrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\recipefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:recipefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\scalerecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:scalerecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\viewrecipeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:viewrecipeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|c:\\users\\kreas\\source\\repos\\recipeapp_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3144CE82-8B20-48EB-9EE6-4F69046CF069}|RecipeApp_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T08:10:00.41Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -61,101 +69,92 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T07:41:08.066Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "RecipeIngredients.cs",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RecipeIngredients.cs",
+              "RelativeDocumentMoniker": "RecipeIngredients.cs",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RecipeIngredients.cs",
+              "RelativeToolTip": "RecipeIngredients.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:12:11.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecipeFields.cs",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RecipeFields.cs",
+              "RelativeDocumentMoniker": "RecipeFields.cs",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RecipeFields.cs",
+              "RelativeToolTip": "RecipeFields.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:10:45.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwEEAAAA4AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T07:41:06.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:10:02.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AddRecipeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\AddRecipeWindow.xaml",
               "RelativeDocumentMoniker": "AddRecipeWindow.xaml",
               "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\AddRecipeWindow.xaml",
               "RelativeToolTip": "AddRecipeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T14:43:45.321Z",
+              "WhenOpened": "2024-06-27T06:11:29.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewRecipesWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ViewRecipesWindow.xaml",
-              "RelativeDocumentMoniker": "ViewRecipesWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ViewRecipesWindow.xaml",
-              "RelativeToolTip": "ViewRecipesWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T14:54:49.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScaleRecipeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ScaleRecipeWindow.xaml",
-              "RelativeDocumentMoniker": "ScaleRecipeWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ScaleRecipeWindow.xaml",
-              "RelativeToolTip": "ScaleRecipeWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T15:01:19.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RevertRecipeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RevertRecipeWindow.xaml",
-              "RelativeDocumentMoniker": "RevertRecipeWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\RevertRecipeWindow.xaml",
-              "RelativeToolTip": "RevertRecipeWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T15:03:20.597Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "AddRecipeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\AddRecipeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AddRecipeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\AddRecipeWindow.xaml.cs",
+              "RelativeToolTip": "AddRecipeWindow.xaml.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAgwIQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:11:33.031Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExitAppWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ExitAppWindow.xaml",
-              "RelativeDocumentMoniker": "ExitAppWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ExitAppWindow.xaml",
-              "RelativeToolTip": "ExitAppWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T15:06:19.243Z",
-              "EditorCaption": ""
+              "Title": "StepDescriptions.cs",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\StepDescriptions.cs",
+              "RelativeDocumentMoniker": "StepDescriptions.cs",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\StepDescriptions.cs",
+              "RelativeToolTip": "StepDescriptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:13:02.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClearRecipeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ClearRecipeWindow.xaml",
-              "RelativeDocumentMoniker": "ClearRecipeWindow.xaml",
-              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\ClearRecipeWindow.xaml",
-              "RelativeToolTip": "ClearRecipeWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T15:05:28.366Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "TotalCalories.cs",
+              "DocumentMoniker": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\TotalCalories.cs",
+              "RelativeDocumentMoniker": "TotalCalories.cs",
+              "ToolTip": "C:\\Users\\kreas\\source\\repos\\RecipeApp_WPF\\TotalCalories.cs",
+              "RelativeToolTip": "TotalCalories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:29:23.443Z"
             }
           ]
         }
