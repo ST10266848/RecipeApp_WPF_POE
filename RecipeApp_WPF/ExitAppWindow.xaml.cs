@@ -23,5 +23,16 @@ namespace RecipeApp_WPF
         {
             InitializeComponent();
         }
+
+        private void YesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Aw we see! We hope to see you again! Closing app...", "Bye for now!", MessageBoxButton.OK, MessageBoxImage.Information);
+            Environment.Exit(0);
+        }
+
+        private void NoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Good Choice! Now, go on add more recipes! Re-opening main menu...", "Wise choice!", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }

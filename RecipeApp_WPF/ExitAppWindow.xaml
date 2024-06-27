@@ -5,9 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecipeApp_WPF"
         mc:Ignorable="d"
-        Title="ExitAppWindow" Height="757" Width="1320"
+        Title="ExitAppWindow" Height="757" Width="1000"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush        ImageSource="\sunnyKitchen.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label x:Name="ExitConfirmationLabel" Content="Are you sure you would like to exit? You'll lose all your Recipes!" HorizontalAlignment="Center" Margin="0,288,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="30" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button x:Name="YesBtn" Style="{DynamicResource RoundButton}" Content="Yes" HorizontalAlignment="Left" Margin="371,371,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="48" Width="96" FontSize="20" Click="YesBtn_Click"/>
+        <Button x:Name="NoBtn" Style="{DynamicResource RoundButton}" Content="No!" HorizontalAlignment="Left" Margin="571,371,0,0" VerticalAlignment="Top" Background="#FFAE1818" Foreground="White" BorderBrush="Black" Height="48" Width="96" FontSize="20" Click="NoBtn_Click"/>
     </Grid>
+
+
 </Window>

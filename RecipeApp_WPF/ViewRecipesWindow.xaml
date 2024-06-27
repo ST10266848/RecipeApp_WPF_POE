@@ -5,9 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecipeApp_WPF"
         mc:Ignorable="d"
-        Title="ViewRecipesWindow" Height="757" Width="1320"
+        Title="ViewRecipesWindow" Height="800" Width="1320"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+
+        <Grid.Background>
+            <ImageBrush        ImageSource="\CosyKitchenBg.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Label x:Name="RecipeAppLabel" Content="Recipe Repo" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="30" RenderTransformOrigin="0.513,0.305" Foreground="#FF57C32F" OpacityMask="Black">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="ViewRecipeInstructionLabel1" Content="This is where you can view recipes!" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="30" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="SpecificFilterOptionsInstructionLabel" Content="Looking for a specific recipe? Use one of the filters below!" HorizontalAlignment="Left" Margin="19,116,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="22" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="SearchIngredientNameLabel" Content="Search by the name of an ingredient in a recipe" HorizontalAlignment="Left" Margin="110,264,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="SearchFoodGroupLabel" Content="Search by the food group of a recipe ingredient" HorizontalAlignment="Left" Margin="110,376,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="SearchMaxCaloriesLabel" Content="Search by max calorie count:" HorizontalAlignment="Left" Margin="110,491,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="SearchByRecipeNameLabel" Content="Search by recipe name" HorizontalAlignment="Left" Margin="110,167,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <TextBox x:Name="IngredientNameSearchTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="113,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+        <TextBox x:Name="FoodGroupSearchTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="113,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+        <TextBox x:Name="MaxCaloriesSearchTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="113,542,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+        <TextBox x:Name="RecipeNameSearchTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="110,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+
+        <Button x:Name="SearchByIngredientNameBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="421,310,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="20"/>
+        <Button x:Name="ShowAllRecipesBtn" Style="{DynamicResource RoundButton}" Content="Show all" HorizontalAlignment="Left" Margin="689,185,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="20" Click="ShowAllRecipesBtn_Click"/>
+        <Button x:Name="SearchByFoodGroupBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="421,425,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="16"/>
+        <Button x:Name="SearchByMaxCalorieBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="421,539,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="16"/>
+        <Button x:Name="SearchByRecipeNameBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="421,210,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="16" Click="SearchByRecipeNameBtn_Click"/>
+
+        <!--<TextBlock x:Name="RecipeDetailsTxtBlock" HorizontalAlignment="Left" Margin="689,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="490" Width="523" Background="White" FontSize="16"/>-->
+        <ScrollViewer Margin="689,239,0,0" Height="490" Width="523">
+            <TextBlock x:Name="RecipeDetailsTxtBlock" HorizontalAlignment="Left"  Height="490" Width="523" TextWrapping="Wrap" VerticalAlignment="Top" Background="White" FontSize="16"/>
+        </ScrollViewer>
+
+
     </Grid>
 </Window>

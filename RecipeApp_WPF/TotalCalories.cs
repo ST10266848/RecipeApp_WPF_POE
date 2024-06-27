@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace RecipeApp_WPF
 {
@@ -15,7 +16,7 @@ namespace RecipeApp_WPF
             //be displayed to the user.
             if (Calorie > 300)
             {
-                Console.WriteLine("WARNING! \nThis recipe exceeds 300 Calories! Calories keep your body fueled and functioning properly but consuming over 300 may result in you gaining extra weight....\n");
+                MessageBox.Show("WARNING! \nThis recipe exceeds 300 Calories! Calories keep your body fueled and functioning properly but consuming over 300 may result in you gaining extra weight....\n", "Over 300!", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             return Calorie;
         }

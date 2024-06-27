@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace RecipeApp_WPF
 {
@@ -27,6 +28,11 @@ namespace RecipeApp_WPF
 
         //Stores the description of each step in a recipe
         public List<StepDescriptions> StepDescription = new List<StepDescriptions>();
+
+        public override string ToString()
+        {
+            return $"Recipe Name: {RecipeName}\nIngredient: {Ingredient}\nStep Description: \n{StepDescription}\n";
+        }
 
         public RecipeFields(string recipeName, int numberOfIngredients, List<RecipeIngredients> ingredient, double totalCalories, int numberOfSteps, List<StepDescriptions> stepDescription)
         {

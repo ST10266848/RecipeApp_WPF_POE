@@ -8,6 +8,62 @@
         Title="ScaleRecipeWindow" Height="757" Width="1320"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush        ImageSource="\cosyKitchenBg.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Label x:Name="ViewRecipeInstructionLabel1" Content="This is where you can scale ingredient quantities of a recipe!" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="30" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="SearchByRecipeNameLabel" Content="Search by recipe name" HorizontalAlignment="Left" Margin="88,141,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBox x:Name="RecipeNameSearchInputTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="88,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+        <Button x:Name="SearchInputByRecipeNameBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="399,184,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="16" Click="SearchByRecipeNameBtn_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="122" Width="234" Background="White"/>
+        <Label x:Name="ScaleFactorInstructionLabel" Content="How much would you like to scale by?" HorizontalAlignment="Left" Margin="719,141,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="24" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <RadioButton x:Name="HalfScaleFactorRadioBtn" Style="{StaticResource resizeRadioButton}" Content="0.5" HorizontalAlignment="Left" Margin="743,200,0,0" VerticalAlignment="Top" FontSize="14" IsChecked="True" Foreground="White">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="TwiceScaleFactorRadioBtn" Style="{StaticResource resizeRadioButton}" Content="2" HorizontalAlignment="Left" Margin="743,252,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White" >
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+
+        <RadioButton x:Name="ThriceScaleFactorRadioBtn" Style="{StaticResource resizeRadioButton}" Content="3" HorizontalAlignment="Left" Margin="747,299,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White" RenderTransformOrigin="1.112,0.257" >
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="4.874" Y="-1.285"/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+        <Button x:Name="ScaleIngredientsBtn" Style="{DynamicResource RoundButton}" Content="Scale" HorizontalAlignment="Left" Margin="897,345,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="20"/>
+        <Label x:Name="RevertIngredientsSuggesstionLabel" Content="Want ingredient quantities back to normal? Select 'Revert Recipe' from main menu" HorizontalAlignment="Left" Margin="687,405,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="14" Height="46" Width="604">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+
+
     </Grid>
 </Window>

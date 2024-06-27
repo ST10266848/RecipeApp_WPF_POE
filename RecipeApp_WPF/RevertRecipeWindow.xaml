@@ -8,6 +8,22 @@
         Title="RevertRecipeWindow" Height="757" Width="1320"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush        ImageSource="\cosyKitchenBg.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label x:Name="RevertRecipeInstructionLabel" Content="This is where you can revert ingredient quantities of a recipe back to normal!" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bauhaus 93" FontSize="30" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="SearchByRecipeNameLabel" Content="Search by recipe name" HorizontalAlignment="Left" Margin="448,133,0,0"  VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Small bold" FontSize="16" Height="46">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBox x:Name="RecipeNameSearchInputTxtBox" Style="{DynamicResource RoundTextbox}" HorizontalAlignment="Left" Margin="448,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="28" FontSize="16"/>
+        <Button x:Name="SearchInputByRecipeNameBtn" Style="{DynamicResource RoundButton}" Content="🔍Search" HorizontalAlignment="Left" Margin="759,176,0,0" VerticalAlignment="Top" Background="#FF164AAB" Foreground="White" BorderBrush="Black" Height="34" Width="109" FontSize="16" Click="SearchByRecipeNameBtn_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="448,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="148" Width="234" Background="White"/>
+        <Button x:Name="RevertIngredientsBtn" Style="{DynamicResource RoundButton}" Content="Revert" HorizontalAlignment="Left" Margin="510,451,0,0" VerticalAlignment="Top" Background="#FF1B8640" Foreground="White" BorderBrush="Black" Height="34" Width="110" FontSize="20"/>
     </Grid>
 </Window>
